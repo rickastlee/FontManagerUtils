@@ -2,7 +2,10 @@
 A simple shell script that prevents Font Manager from overriding more fonts than necessary.
 
 ## Usage
-Copy and paste this command into Termux.
+Copy and paste the commands below into Termux.
+```
+pkg install wget
+```
 ```
 wget -q "https://github.com/rickastlee/FontManagerFucker/raw/refs/heads/main/fucker.sh" && bash fucker.sh && rm fucker.sh
 ```
